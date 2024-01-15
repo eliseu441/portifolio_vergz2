@@ -1,0 +1,39 @@
+.px-btn {
+	padding: 15px 35px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--px-theme);
+	color: var(--px-theme-text);
+	text-decoration: none;
+	border-radius: 0;
+	transition: ease all 0.35s;
+	font-weight: 500;
+	outline: none;
+	box-shadow: none;
+	border: none;
+	cursor: pointer;
+	background: linear-gradient(60deg, rgba(102, 102, 102, 1) 0%, rgba(5, 5, 5, 1) 85%);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	color: var(--px-white);
+
+	svg {
+		margin-left: 10px;
+	}
+
+	&:hover {
+		color: var(--px-white);
+		background-size: 200% 100%;
+	}
+
+	&.dark {
+		background: var(--px-dark);
+		color: var(--px-white);
+
+		&:hover {
+			background: var(--px-white);
+			color: var(--px-dark);
+		}
+	}
+}
