@@ -28,7 +28,7 @@ const Header = ({ data }) => {
       {/* Header Top */}
       <div
         className={`header-left-fixed one-page-nav ${
-          mobileToggle ? 'menu-open bg-header2' : 'bg-heade'
+          mobileToggle ? 'menu-open bg-header2' : 'bg-header'
         }`}
       >
         <ul className="main-menu mt-5 ">
